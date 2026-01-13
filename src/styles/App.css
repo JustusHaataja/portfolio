@@ -1,0 +1,45 @@
+.app {
+  background-color: var(--background);
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+}
+
+.section {
+  height: 100vh;
+  /* min-height: 100vh; */
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+#hero,
+#about,
+#projects,
+#contact {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+}
+
+.cursor-light {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(233, 69, 96, 0.15) 0%,
+    rgba(233, 69, 96, 0.05) 35%,
+    transparent 70%
+  );
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: opacity 1.3s ease;
+}
