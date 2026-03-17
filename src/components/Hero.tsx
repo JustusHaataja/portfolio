@@ -74,7 +74,7 @@ const Hero = () => {
       </h1>
       <div className="social-links" style={{ opacity: scrollOpacity }} >
         <a 
-          href="https://github.com/JustusHaataja/Projects" 
+          href="https://github.com/JustusHaataja" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
