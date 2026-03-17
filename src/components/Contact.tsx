@@ -15,7 +15,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faEnvelope} className="link-icon" />
           Email
         </a>
-        <a href="https://github.com/JustusHaataja/Projects" className="contact-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/JustusHaataja" className="contact-link" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faSquareGithub} className="link-icon" />
           GitHub
         </a>
