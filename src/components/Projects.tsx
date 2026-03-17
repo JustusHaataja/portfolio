@@ -25,6 +25,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: 'RPS League',
+      description: 'A real-time Rock-Paper-Scissors league tracker. Live match results stream in automatically, historical data is searchable by day or player, and a leaderboard ranks the top competitors.',
+      technologies: ['React', 'TypeScript', 'Python', 'PostgreSQL'],
+      image: '/rps_league_preview.png',
+      liveLink: 'https://rpsleague-jh.netlify.app/',
+    },
+    {
+      id: 3,
       title: 'Room reservation API',
       description: 'A clean, modular REST API for booking meeting rooms built with Python and FastAPI. This is a POC implementation with in-memory storage.',
       technologies: ['Python', 'FastAPI'],
@@ -32,7 +40,7 @@ const Projects = () => {
       githubLink: 'https://github.com/JustusHaataja/room-reservation-api'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Movie website',
       description: 'Dynamic movie discovery platform utilizing external APIs to fetch and display movie information. Features search functionality, detailed movie pages.',
       technologies: ['React', 'TypeScript'],

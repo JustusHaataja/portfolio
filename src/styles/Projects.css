@@ -12,12 +12,20 @@
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 2rem;
+  overflow: auto;
+  padding-bottom: 0.6rem;
 }
 
+.projects-grid::-webkit-scrollbar {height: 8px;}
+.projects-grid::-webkit-scrollbar-track { background: transparent; }
+.projects-grid::-webkit-scrollbar-thumb { background: var(--background); border-radius: 4px; }
+.projects-grid::-webkit-scrollbar-thumb:hover { background: var(--accent_red); }
+
 .project-card {
+  min-width: 400px;
   background-color: var(--background);
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -38,7 +46,7 @@
 .project-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:contain;
   transition: transform 0.3s ease;
 }
 
@@ -50,7 +58,7 @@
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-2px);
   border-color: var(--accent_red);
   box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
 }
