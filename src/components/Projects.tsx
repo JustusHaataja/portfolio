@@ -21,7 +21,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Python', 'PostgreSQL'],
       image: '/E-commerce_preview.png',
       liveLink: 'https://puhdistamo.netlify.app/',
-      githubLink: 'https://github.com/JustusHaataja/portfolio'
+      githubLink: 'https://github.com/JustusHaataja/e-commerce'
     },
     {
       id: 2,
