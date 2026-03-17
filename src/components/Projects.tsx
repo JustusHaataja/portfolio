@@ -25,12 +25,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Algorithm visualizer',
-      description: 'Interactive web application that visualizes popular sorting algorithms in real-time. Features customizable array sizes, and step-by-step execution to help understand algorithmic concepts.',
-      technologies: ['React', 'TypeScript', 'Python'],
-      image: '/Algorithms_preview.png',
-      liveLink: 'https://algorithmsbyjustus.netlify.app/',
-      githubLink: 'https://github.com/JustusHaataja/sorting-algorithms'
+      title: 'Room reservation API',
+      description: 'A clean, modular REST API for booking meeting rooms built with Python and FastAPI. This is a POC implementation with in-memory storage.',
+      technologies: ['Python', 'FastAPI'],
+      image: '/rest_api.jpg',
+      githubLink: 'https://github.com/JustusHaataja/room-reservation-api'
     },
     {
       id: 3,
