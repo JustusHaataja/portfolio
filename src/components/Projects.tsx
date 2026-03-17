@@ -21,7 +21,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Python', 'PostgreSQL'],
       image: '/E-commerce_preview.png',
       liveLink: 'https://puhdistamo.netlify.app/',
-      githubLink: 'https://github.com/JustusHaataja/Projects/tree/main/Web-projects/E-commerce'
+      githubLink: 'https://github.com/JustusHaataja/portfolio'
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Python'],
       image: '/Algorithms_preview.png',
       liveLink: 'https://algorithmsbyjustus.netlify.app/',
-      githubLink: 'https://github.com/JustusHaataja/Projects/tree/main/Web-projects/Sorting%20Algorithms'
+      githubLink: 'https://github.com/JustusHaataja/sorting-algorithms'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript'],
       image: '/MovieApp_preview.png',
       liveLink: 'https://topmoviesbyjustus.netlify.app/',
-      githubLink: 'https://github.com/JustusHaataja/Projects/tree/main/Web-projects/MovieApp'
+      githubLink: 'https://github.com/JustusHaataja/movie-app'
     }
   ];
 
