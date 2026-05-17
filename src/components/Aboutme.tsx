@@ -10,14 +10,14 @@ const Aboutme = () => {
                     <h3>Location</h3>
                     <p>
                         Based in Tampere, Finland. Software engineering student at Tampere University,
-                        graduating in May 2026 and open to developer opportunities.
+                        graduating with a Bachelor's degree in May 2026.
                     </p>
                 </article>
 
                 <article className="aboutme-card">
                     <h3>Experience</h3>
                     <p>
-                        I build full-stack web applications using Python, FastAPI, TypeScript, React
+                        I build full-stack web applications using Python, Node.js, TypeScript, React
                         and PostgreSQL. My work includes designing REST APIs, building modern
                         frontends, and deploying applications to cloud environments.
                     </p>
