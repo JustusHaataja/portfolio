@@ -34,11 +34,11 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Room reservation API',
-      description: 'A clean, modular REST API for booking meeting rooms built with Python and FastAPI. This is a POC implementation with in-memory storage.',
-      technologies: ['Python', 'FastAPI'],
+      title: 'Room booking',
+      description: 'A modern full-stack room reservation app for managing meeting rooms and bookings. Features real-time availability checking, room management, and timezone-aware booking handling.',
+      technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
       image: '/rest_api.jpg',
-      githubLink: 'https://github.com/JustusHaataja/room-reservation-api'
+      githubLink: 'https://github.com/JustusHaataja/room-booking'
     },
     {
       id: 4,
