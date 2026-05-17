@@ -18,7 +18,7 @@ const Projects = () => {
       id: 1,
       title: 'E-commerce platform',
       description: 'Full-stack E-commerce platform featuring scraped real product listings. Built with modern web technologies and a PostgreSQL database for efficient data management.',
-      technologies: ['React', 'TypeScript', 'Python', 'PostgreSQL'],
+      technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
       image: '/E-commerce_preview.png',
       liveLink: 'https://puhdistamo.netlify.app/',
       githubLink: 'https://github.com/JustusHaataja/e-commerce'
@@ -27,9 +27,10 @@ const Projects = () => {
       id: 2,
       title: 'RPS League',
       description: 'A real-time Rock-Paper-Scissors league tracker. Live match results stream in automatically, historical data is searchable by day or player, and a leaderboard ranks the top competitors.',
-      technologies: ['React', 'TypeScript', 'Python', 'PostgreSQL'],
+      technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
       image: '/rps_league_preview.png',
       liveLink: 'https://rpsleague-jh.netlify.app/',
+      githubLink: 'https://github.com/JustusHaataja/RPS-League'
     },
     {
       id: 3,
