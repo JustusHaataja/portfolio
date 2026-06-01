@@ -71,6 +71,26 @@
   color: rgba(249, 249, 249, 0.8);
 }
 
+.thesis-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(249, 249, 249, 0.2);
+}
+
+.thesis-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent_red);
+  margin-bottom: 8px;
+}
+
+.thesis-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(249, 249, 249, 0.9);
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .studies-title {
     font-size: 2rem;

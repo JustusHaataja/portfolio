@@ -16,6 +16,10 @@ const Studies = () => {
             <p className="description">
               Comprehensive software development program focusing on full-stack development, data structures, algorithms <br/> and modern software engineering practices. Gained hands-on experience with web technologies and agile methodologies.
             </p>
+            <div className="thesis-section">
+              <h4 className="thesis-title">Bachelor's Thesis</h4>
+              <p className="thesis-description">The capabilities and limitations of AI agents in software development</p>
+            </div>
           </div>
 
           <div className="study-card">
