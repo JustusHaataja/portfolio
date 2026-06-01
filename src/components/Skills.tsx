@@ -25,12 +25,12 @@ const Skills = () => {
     { 
       name: 'REST API', 
       icon: '/API.svg',
-      description: 'Experience designing and consuming RESTful APIs, including authentication, error handling, and best practices.'
+      description: 'Experience designing and consuming CRUD RESTful APIs, including authentication, error handling, and best practices.'
     },
     { 
       name: 'AI Tools', 
       icon: '/githubcopilot.svg',
-      description: 'Leveraging AI-powered tools like GitHub Copilot and ChatGPT to enhance productivity and code quality.'
+      description: 'Experienced with AI agents and agentic systems. Understanding of MAS and their capabilities in automating complex development workflows.'
     },
     { 
       name: 'Team Work', 
