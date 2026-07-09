@@ -9,8 +9,7 @@ const Aboutme = () => {
 				<article className="aboutme-card">
                     <h3>Location</h3>
                     <p>
-                        Based in Tampere, Finland. Software engineering student at Tampere University,
-                        graduating with a Bachelor's degree in May 2026.
+                        Based in Tampere, Finland, I recently graduated from Tampere University with a Bachelor’s degree in Software Engineering.
                     </p>
                 </article>
 
